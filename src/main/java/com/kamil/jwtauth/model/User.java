@@ -2,6 +2,7 @@ package com.kamil.jwtauth.model;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.stereotype.Component;
 
 @Entity
 @Table(name = "users")
@@ -10,6 +11,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Component
 public class User {
 
     @Id
