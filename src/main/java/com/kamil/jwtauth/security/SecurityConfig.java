@@ -58,7 +58,7 @@ public class SecurityConfig {
 
         return authProvider;
     }
-    
+
     // ToDo read bout it
     @Bean
     AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {
